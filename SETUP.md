@@ -1,4 +1,5 @@
-# 🧬 Cut&RUN Analysis Pipeline — Soutoglou Laboratory
+# 🧬 Cut&RUN Analysis Pipeline — Soutoglou Laboratory 
+# SET UP
 
 This README includes the required software, installation steps, and pipeline commands used for Cut&RUN NGS library analysis in the Soutoglou Laboratory.
 
