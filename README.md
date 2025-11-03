@@ -4,11 +4,24 @@ https://github.com/nf-core/cutandrun
 > The nf-core framework for community-curated bioinformatics pipelines.
 > Philip Ewels, Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso & Sven Nahnsen.
 > Nat Biotechnol. 2020 Feb 13. doi: 10.1038/s41587-020-0439-x.
+**current configuration does not support HPC**
+---
+## 👶 baby_steps.md
+includes links to a brief cli introduction and how to download fastqs from Illumina NextSeq1000 runs hosted on personal basespace accounts
+
+> users will need to have the following training, hardware, and accounts to access this step
+- [ ] NextSeq1000 training with Rachal
+- [ ] Library prep training with Jo
+- [ ] Basespace training with Jo/Rachal
+      
+- [ ] Access to a personal/lab Linux
+- [ ] Basespace account
 ---
 
 ## 🛠 SETUP.md
 includes notes on the required software, installations steps, and nfcore set up testing
 > this is specific to a personal linux, and uses Docker
+> Users can learn and access this and subsequent step without basespace and NextSeq1000 training
 
 ---
 
