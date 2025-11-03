@@ -26,7 +26,7 @@ shell scripts here were used to generate:
 2. Processes bigWig replicates into averaged bigWig files.
    
    Users should have downloaded the necessary .chrom.sizes file, download wiggletools, known to adjust paths and file suffixes, and establish conda env (should specify in shell script) for this script.
-   > manual_replicate_averaging
+   > manual_replicate_averaging.sh
 3. Generate matrix and plot heatmap for visualisation of genes within LADs and iLADs.
 
    Users should have downloaded BEDs, know to adjust paths,and # and un# the required BED files to plot other genomic features. 
