@@ -3,6 +3,8 @@
 
 This README includes the required software, installation steps, and pipeline commands used for Cut&RUN NGS library analysis in the Soutoglou Laboratory.
 
+Please note this .md describes configuration for _a personal linux_, and would not be supported by HPC
+
 ---
 
 ## 📚 Documentation
