@@ -1,4 +1,4 @@
-# 🧬 Cut&RUN Analysis Pipeline — Soutoglou Laboratory
+# 🍏 Cut&RUN Analysis Pipeline — Soutoglou Laboratory
 # Example Run
 
 This README includes the bash commands used to run nfcore cut&run analysis pipeline from a personal linux with docker configuration
