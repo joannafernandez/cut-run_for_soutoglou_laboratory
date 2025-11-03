@@ -35,10 +35,15 @@ df -h
 
 > 3️⃣ verify no unknown characters in samplesheet.csv
 ```bash
-TBD
+#copies samplesheet from ssd to home directory
+cp /media/bafj7/Jo3/Sonly_samplesheet.csv  ~/samplesheet.csv
+head -n 1 ~/samplesheet.csv | hexdump -C
+sed -i '1s/^\xEF\xBB\xBF//' ~/samplesheet.csv
+head -n 1 ~/samplesheet.csv | hexdump -C
 ```
 > 4️⃣ export necessart paths
 ```bash
+#note that these are exported to external ssd for space optimisation
 export TMPDIR=/media/bafj7/jo4/tmp_nf
 export NXF_home=/media/bafj7/jo4/nextflow_cache
 export _JAVA_OPTIONS=" -Djava.io.tmpdir=/media/bafj7/jo4/tmp_nf"
@@ -47,7 +52,7 @@ export _JAVA_OPTIONS=" -Djava.io.tmpdir=/media/bafj7/jo4/tmp_nf"
 ensure that output directory exists before run
 ```bash
 nextflow run nf-core/cutandrun -r 3.2.2 -profile docker \
-  --input ~/h3k9samps.csv \
+  --input ~/samplesheet.csv \
   --genome hg38 \
   --spikein_genome R64-1-1 \
   --outdir /media/bafj7/jo4/h3k9samps \
