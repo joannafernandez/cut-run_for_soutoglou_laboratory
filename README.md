@@ -6,6 +6,7 @@ https://github.com/nf-core/cutandrun
 > Nat Biotechnol. 2020 Feb 13. doi: 10.1038/s41587-020-0439-x.
 **current configuration does not support HPC**
 ---
+
 ## 👶 baby_steps.md
 includes links to a brief cli introduction and how to download fastqs from Illumina NextSeq1000 runs hosted on personal basespace accounts
 
@@ -16,11 +17,13 @@ includes links to a brief cli introduction and how to download fastqs from Illum
       
 - [ ] Access to a personal/lab Linux
 - [ ] Basespace account
+      
 ---
 
 ## 🛠 SETUP.md
 includes notes on the required software, installations steps, and nfcore set up testing
 > this is specific to a personal linux, and uses Docker
+> 
 > Users can learn and access this and subsequent step without basespace and NextSeq1000 training
 
 ---
