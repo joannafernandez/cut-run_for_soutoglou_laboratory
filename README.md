@@ -6,6 +6,9 @@ https://github.com/nf-core/cutandrun
 > Nat Biotechnol. 2020 Feb 13. doi: 10.1038/s41587-020-0439-x.
 **current configuration does not support HPC**
 ---
+### Cut&RUN libraries were generated as described here:
+> https://www.protocols.io/view/cut-amp-run-library-preparation-v3-rm7vz9errgx1/v1
+---
 
 ## 👶 baby_steps.md
 includes links to a brief cli introduction and how to download fastqs from Illumina NextSeq1000 runs hosted on personal basespace accounts
