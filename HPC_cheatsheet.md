@@ -29,10 +29,25 @@ find /mnt/nfs2/gdsc/jf383/work -name ".command.run" | head
 
 ---
 
-## Inspect my horrendous work directory 
-Nextflow creates a work directory (the bane of my existence on the personal linux because it makes _a lot_ of files
+## Inspect the horrendous work directory 
+Nextflow creates a work directory (the bane of my existence on the personal linux because it makes _a lot_ of files)
 
 Let's have a peak under the hood!
 
 <img width="379" height="817" alt="image" src="https://github.com/user-attachments/assets/4480c7f2-b9d5-4bc6-aa06-4e5b22ea5936" />
+
+if pipeline ran successfully to completion, we want to clear space by removing the directory and cleaning _safely_
+
+There are many files and it can add up
+
+<img width="632" height="419" alt="image" src="https://github.com/user-attachments/assets/65af986b-fb23-481a-a4e2-1279889befa4" />
+
+#### Therfore, safe practice is to always set a work directory for each run, and clear it after
+
+```bash
+rm -rf /mnt/nfs2/gdsc/jf383/work
+nextflow clean -f
+```
+> you should adjust the path to work directory as necessary
+
 
