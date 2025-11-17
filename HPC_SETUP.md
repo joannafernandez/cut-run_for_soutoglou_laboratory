@@ -165,3 +165,13 @@ nextflow run nf-core/cutandrun \
     -w /mnt/nfs2/gdsc/jf383/work
 ```
 
+---
+
+if successful (if it looks a bit like this:)
+<img width="1065" height="624" alt="image" src="https://github.com/user-attachments/assets/937bb80e-4593-4783-bf06-6df8fc9adb1b" />
+
+You should them be able to navigate to the folder with the Artemis Open OnDemand web interface and inspect the outputs
+<img width="1491" height="867" alt="image" src="https://github.com/user-attachments/assets/96629e0c-5d7f-453a-8177-1dfdaa72c4bd" />
+<img width="1488" height="883" alt="image" src="https://github.com/user-attachments/assets/0bc231e6-d53d-45aa-9af9-1c91139bb41a" />
+
+
