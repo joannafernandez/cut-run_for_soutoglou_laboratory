@@ -50,4 +50,33 @@ nextflow clean -f
 ```
 > you should adjust the path to work directory as necessary
 
+---
 
+## Downloading and Uploading 
+> yet to test this myself but!
+
+#### If downloading from Mac to Artemis use scp:
+
+```bash
+scp -i ~/.ssh/artemis \
+    USERNAME@ood.artemis.hrc.sussex.ac.uk:/its/home/USERNAME/cutandrun_test_output_nxf24106/04_reporting/multiqc/multiqc_report.html \
+    ~/Desktop/
+
+#or for a whole folder
+scp -i ~/.ssh/artemis -r \
+    USERNAME@ood.artemis.hrc.sussex.ac.uk:/its/home/USERNAME/cutandrun_test_output_nxf24106 \
+    ~/Desktop/
+```
+
+This should either download a specific file, or a whole folder
+> the alternative is to download directly from the OnDemand web interface
+
+#### If uploading from Mac to Artermis use scp:
+
+```bash
+scp -i ~/.ssh/artemis \
+    ~/Desktop/samplesheet.csv \
+    USERNAME@ood.artemis.hrc.sussex.ac.uk:/its/home/USERNAME/
+```
+
+---
