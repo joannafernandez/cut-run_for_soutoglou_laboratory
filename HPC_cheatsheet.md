@@ -1,6 +1,6 @@
-# 👷🏼‍♀️ Cheeky Cheat Sheet for those of us not used to using Artemis 
+# 🥷 Cheeky Cheat Sheet for Artemis 🏹
 
-## Checking Slurm jobs currently running 
+## 😴 Checking Slurm jobs currently running 
 ```bash
 squeue -u USERNAME
 ```
@@ -10,7 +10,7 @@ squeue -u USERNAME
 
 ---
 
-## View recently finished jobs
+## 👷🏼‍♀️ View recently finished jobs
 ```bash
 sacct -u USERNAME --format=JobID,JobName,State,ExitCode,Elapsed | head
 ```
@@ -18,7 +18,7 @@ sacct -u USERNAME --format=JobID,JobName,State,ExitCode,Elapsed | head
 
 ---
 
-## Have a look in the work directory/check that nextflow made these directories
+## 🔬 Have a look in the work directory/check that nextflow made these directories
  > here I'm just leaving my username in the command 
 
 ```bash
@@ -29,7 +29,7 @@ find /mnt/nfs2/gdsc/jf383/work -name ".command.run" | head
 
 ---
 
-## Inspect the horrendous work directory 
+## ⚰️ Inspect the horrendous work directory 
 Nextflow creates a work directory (the bane of my existence on the personal linux because it makes _a lot_ of files)
 
 Let's have a peak under the hood!
@@ -52,7 +52,7 @@ nextflow clean -f
 
 ---
 
-## Downloading and Uploading 
+## ⬇️⬆️ Downloading and Uploading 
 > yet to test this myself but!
 
 #### If downloading from Mac to Artemis use scp:
