@@ -33,5 +33,6 @@ find /mnt/nfs2/gdsc/jf383/work -name ".command.run" | head
 Nextflow creates a work directory (the bane of my existence on the personal linux because it makes _a lot_ of files
 
 Let's have a peak under the hood!
+
 <img width="379" height="817" alt="image" src="https://github.com/user-attachments/assets/4480c7f2-b9d5-4bc6-aa06-4e5b22ea5936" />
 
