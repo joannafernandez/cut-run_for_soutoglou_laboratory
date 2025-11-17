@@ -96,13 +96,11 @@ module spider apptainer
 ```bash
 module load singularity
 ```
-```bash
-module load singularity
-```
+
 2️⃣ Create necessary directories
 UoS HRC does not have a "project" directory, so since I'm setting this up for myself, I'll make my own directory in ./home. 
 
-This might be something to look into in future, if it should be developed more when the whole lab uses it.
+> This might be something to look into in future, I can approach ITS to create a ./project directory for us if necessary
 
 ```bash
 mkdir -p /its/home/USERNAME/.singularity/cache
