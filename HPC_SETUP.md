@@ -165,6 +165,19 @@ nextflow run nf-core/cutandrun \
     -w /mnt/nfs2/gdsc/jf383/work
 ```
 
+> caveat! ChatGPT 5.0 suggests setting specific folders for output:
+```bash
+nextflow run nf-core/cutandrun \
+  -profile test,singularity \
+  -c ~/cutandrun_hpc.config \
+  --outdir ~/cutandrun_test_output \
+  -w ~/nf_work/test_run
+```
+> and real runs should have 
+```bash
+  -w ~/nf_work/run1
+```
+
 ---
 
 if successful (if it looks a bit like this:)
