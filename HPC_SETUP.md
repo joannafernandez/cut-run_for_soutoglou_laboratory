@@ -4,6 +4,7 @@
 This README includes the required software, installation steps, and pipeline commands used for Cut&RUN NGS library analysis in the Soutoglou Laboratory.
 
 Please note this .md describes configuration for _the Artmeis HRC_, which requires access to be granted by UoS ITS
+Importantly! Windows CL commands may vary to the below, which work on Warp for MacOS
 
 ---
 
