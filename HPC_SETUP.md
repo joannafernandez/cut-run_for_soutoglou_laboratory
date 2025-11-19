@@ -126,16 +126,26 @@ singularity {
 
 process {
     executor = 'slurm'
-    cpus = 4
+
+    // Default partition and resources
+    queue  = 'general'      // or 'long' if you prefer long-running jobs
+    cpus   = 4
     memory = '16 GB'
-    time = '24h'
+    time   = '4h'           // default per-process, safely < 8h limit
+
+    // Optional: override TRIMGALORE specifically (usually quick)
+    withName: 'NFCORE_CUTANDRUN:CUTANDRUN:FASTQC_TRIMGALORE:TRIMGALORE.*' {
+        time = '2h'         // very safe for general partition
+    }
 }
 
+// Global nf-core limits – must respect partition limits
 params {
     max_memory = '64.GB'
-    max_cpus = 16
-    max_time = '96.h'
+    max_cpus   = 16
+    max_time   = '8.h'      // NEVER more than 8h on 'general'
 }
+
 
 ```
 Save and exit (Ctrl+O, Enter, Ctrl+X).
