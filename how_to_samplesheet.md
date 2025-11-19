@@ -35,5 +35,21 @@ Here's a few common hiccup points
 
 
 ## Common errors 
-fix:
+1. If there is an extra space
+```bash
 sed -i '1s/^\xEF\xBB\xBF//' /its/home/jf383/IVR2_test/samplesheethrc.csv
+```
+2. If you need to inspect and change something specifically, like removing a specific "," or " "
+<img width="1007" height="505" alt="image" src="https://github.com/user-attachments/assets/bd47e144-1a54-4fac-bd66-740630394aed" />
+ 
+```bash
+nano /its/home/jf383/IVR2_test/samplesheethrc.csv
+```
+fix it, then CTRL O, Enter, CTRL X
+
+to print and inspect
+```bash
+cat /its/home/jf383/IVR2_test/samplesheethrc.csv
+```
+<img width="996" height="198" alt="image" src="https://github.com/user-attachments/assets/ff880089-6480-4932-b577-f65d266bf8e3" />
+
