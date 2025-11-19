@@ -32,3 +32,8 @@ Here's a few common hiccup points
 ### for HPC, ensure file paths match directory of fastqs on your workspace
 
 <img width="954" height="124" alt="image" src="https://github.com/user-attachments/assets/e48de95e-7cef-4d8b-bb16-ee1ed057ff70" />
+
+
+## Common errors 
+fix:
+sed -i '1s/^\xEF\xBB\xBF//' /its/home/jf383/IVR2_test/samplesheethrc.csv
