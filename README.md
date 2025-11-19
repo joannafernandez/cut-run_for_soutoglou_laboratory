@@ -14,7 +14,7 @@ _Please note there are instructions here for running the pipeline on a **persona
 ### Cut&RUN libraries were generated as described here:
 > https://www.protocols.io/view/cut-amp-run-library-preparation-v3-rm7vz9errgx1/v1
 ---
-## Running the pipeline from a personal linux:
+## Generic how to docs
 
 ### 👶 baby_steps.md
 includes links to a brief cli introduction and how to download fastqs from Illumina NextSeq1000 runs hosted on personal basespace accounts
@@ -26,7 +26,17 @@ includes links to a brief cli introduction and how to download fastqs from Illum
       
 - [ ] Access to a personal/lab Linux
 - [ ] Basespace account
-      
+
+---
+### 🧪🗒  how_to_samplesheet.md
+Critical info on how to format your sample sheet to work with nf-core! 
+
+Please alsorefer to the original documentation for more information.
+
+https://nf-co.re/cutandrun/3.2.2/docs/usage/
+
+---
+## Running the pipeline from a personal linux:
 ---
 
 ### 🛠 SETUP.md
@@ -40,9 +50,31 @@ includes notes on the required software, installations steps, and nfcore set up 
 ### 🍏 EXAMPLE_RUN.md 
 includes links to all necessary documentation and all bash commands for minimal workflow
 > this is configured for cell signalling cut&run assay kit #86652 using S. _cerevisiae_ for spike normalisation
+
+---
+## Running the pipeline on Artemis:
 ---
 
-## 🐚 shell scripts
+### 🏹🛠 HPC_SETUP.md
+includes notes the required software, installation steps, and nfcore set up testing 
+> this is specific to the HPC/HRC Artemis as the University of Sussex, and requires access to be granted by ITS
+> Users can learn and access this and subsequent step without basespace and NextSeq1000 training
+> 
+---
+
+### 🏹🥷 HPC_cheatsheet.md
+
+Lot's of useful commands and tips and tricks for working with CL on Artemis
+
+---
+
+### 🏹🍏 HPC_EXAMPLE_RUN
+Please refer to EXAMPLE_RUN.md for links to original documentation. 
+This .md includes everything you need from uploading files to the Artemis workspace, to executing the minimal workflow.
+> this is configured for cell signalling cut&run assay kit #86652 using S. _cerevisiae_ for spike normalisation
+
+---
+### 🐚 shell scripts
 shell scripts here were used to generate:
 1. The correct PCA plots with --transpose
 
