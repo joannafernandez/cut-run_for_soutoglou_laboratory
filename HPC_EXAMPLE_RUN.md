@@ -1,4 +1,4 @@
-# Running CNR on ARTEMIS ✂️🏃🏹
+# Running nf-core CUT&RUN pipeline on ARTEMIS ✂️🏃🏹
 
 Here are the commands in an example walk through with our lab data to run the nf-core cut&RUN pipeline on Artemis
 
