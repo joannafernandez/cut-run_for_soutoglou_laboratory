@@ -50,6 +50,8 @@ fix it, then CTRL O, Enter, CTRL X
 to print and inspect
 ```bash
 cat /its/home/jf383/IVR2_test/samplesheethrc.csv
+# or
+head -5 /its/home/jf383/IVR2_test/samplesheethrc.csv | nl -ba
 ```
-<img width="996" height="198" alt="image" src="https://github.com/user-attachments/assets/ff880089-6480-4932-b577-f65d266bf8e3" />
+<img width="1400" height="149" alt="image" src="https://github.com/user-attachments/assets/de715f63-6baa-4c42-ab25-839a5fe3afb8" />
 
