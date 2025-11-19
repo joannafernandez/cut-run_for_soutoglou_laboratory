@@ -8,13 +8,15 @@ https://github.com/nf-core/cutandrun
 > disclaimer: Portions of this analysis were developed with assistance from ChatGPT (GPT-5 & GPT-4), a large language model created by OpenAI.
 Model: ChatGPT (GPT-5 & GPT-4). Accessed: June 2025.
 
-**current configuration does not support HPC**
+_Please note there are instructions here for running the pipeline on a **personal linux** as well as the **HPC/HRC at Sussex**_
+
 ---
 ### Cut&RUN libraries were generated as described here:
 > https://www.protocols.io/view/cut-amp-run-library-preparation-v3-rm7vz9errgx1/v1
 ---
+## Running the pipeline from a personal linux:
 
-## 👶 baby_steps.md
+### 👶 baby_steps.md
 includes links to a brief cli introduction and how to download fastqs from Illumina NextSeq1000 runs hosted on personal basespace accounts
 
 > users will need to have the following training, hardware, and accounts to access this step
@@ -27,7 +29,7 @@ includes links to a brief cli introduction and how to download fastqs from Illum
       
 ---
 
-## 🛠 SETUP.md
+### 🛠 SETUP.md
 includes notes on the required software, installations steps, and nfcore set up testing
 > this is specific to a personal linux, and uses Docker
 > 
@@ -35,7 +37,7 @@ includes notes on the required software, installations steps, and nfcore set up 
 
 ---
 
-## 🍏 EXAMPLE_RUN.md 
+### 🍏 EXAMPLE_RUN.md 
 includes links to all necessary documentation and all bash commands for minimal workflow
 > this is configured for cell signalling cut&run assay kit #86652 using S. _cerevisiae_ for spike normalisation
 ---
