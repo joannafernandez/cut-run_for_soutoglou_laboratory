@@ -1,4 +1,4 @@
-# Formatting sample sheets for nf-core CUT&RUN 
+# 🧪🗒 Formatting sample sheets for nf-core CUT&RUN 
 
 This is the most common error point when running the pipeline, so it always worth it to pay attention when formating the sample sheet
 
