@@ -1,4 +1,4 @@
-# Running CNR on ARTEMIS 
+# Running CNR on ARTEMIS ✂️🏃🏹
 
 Here are the commands in an example walk through with our lab data to run the nf-core cut&RUN pipeline on Artemis
 
@@ -29,5 +29,8 @@ pwd #print working directory
 ```bash
 out: /mnt/nfs2/gdsc/jf383/IVR2_test
 ```
-### Information on how to format the sample sheet can be found in .md
+#### Information on how to format the sample sheet is here:
+> remeber to upload this also to a directory you can call in the pipeline
+https://github.com/joannafernandez/cut-run_for_soutoglou_laboratory/blob/main/how_to_samplesheet.md
+
 
