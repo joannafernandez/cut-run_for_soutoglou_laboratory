@@ -111,4 +111,16 @@ nextflow run nf-core/cutandrun \
   --max_cpus 14 \
   --dt_calc_all_matrix false
 ```
+---
+
+5️⃣ Verify that your pipeline has finished successfully
+
+You should see output like this if the pipeline succesfully ran to completion
+<img width="1280" height="500" alt="image" src="https://github.com/user-attachments/assets/b03bd71b-63d2-4cff-90cc-60a7e35046ce" />
+
+✅ You should be able to inspect your output directly either through the terminal, or through Open OnDemand
+<img width="668" height="344" alt="image" src="https://github.com/user-attachments/assets/21d9aa11-1ed9-4cb1-989c-8e56cf4c4627" />
+
+<img width="1116" height="860" alt="image" src="https://github.com/user-attachments/assets/03fe7ac1-6220-4609-922a-742778ac262b" />
+
 
