@@ -53,5 +53,5 @@ cat /its/home/jf383/IVR2_test/samplesheethrc.csv
 # or
 head -5 /its/home/jf383/IVR2_test/samplesheethrc.csv | nl -ba
 ```
-<img width="1400" height="149" alt="image" src="https://github.com/user-attachments/assets/de715f63-6baa-4c42-ab25-839a5fe3afb8" />
+<img width="1324" height="130" alt="image" src="https://github.com/user-attachments/assets/e6f8728e-5647-4e19-85c2-61450194a1c7" />
 
