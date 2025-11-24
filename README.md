@@ -16,7 +16,10 @@ _Please note there are instructions here for running the pipeline on a **persona
 ---
 #### Pathways on this repository...
 
-<img width="446.625" height="631.5" alt="Untitled-21 01 Artboard 2" src="https://github.com/user-attachments/assets/12f0f4af-4bcb-4b9d-ae3e-f99ddbea56db" />
+
+<img width="446.625" height="631.5" alt="Untitled-21 01 Artboard 3" src="https://github.com/user-attachments/assets/39f98840-8249-4040-85e7-3ab198663b08" />
+
+
 
 ## Generic how to docs
 
