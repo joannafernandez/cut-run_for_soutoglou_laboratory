@@ -14,6 +14,10 @@ _Please note there are instructions here for running the pipeline on a **persona
 ### Cut&RUN libraries were generated as described here:
 > https://www.protocols.io/view/cut-amp-run-library-preparation-v3-rm7vz9errgx1/v1
 ---
+#### Pathways on this repository...
+
+<img width="446.625" height="631.5" alt="Untitled-21 01 Artboard 2" src="https://github.com/user-attachments/assets/12f0f4af-4bcb-4b9d-ae3e-f99ddbea56db" />
+
 ## Generic how to docs
 
 ### 👶 baby_steps.md
