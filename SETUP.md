@@ -19,7 +19,7 @@ Please note this .md describes configuration for _a personal linux_, and would n
 
 ---
 
-## 🖥️ How I installed Nextflow on Tony Carr's Linux Machine
+## 🛋️ How I installed Nextflow on Tony Carr's Linux Machine
 
 ```bash
 sudo apt update
