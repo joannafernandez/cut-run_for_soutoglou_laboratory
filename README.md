@@ -4,6 +4,8 @@ https://github.com/nf-core/cutandrun
 > The nf-core framework for community-curated bioinformatics pipelines.
 > Philip Ewels, Alexander Peltzer, Sven Fillinger, Harshil Patel, Johannes Alneberg, Andreas Wilm, Maxime Ulysse Garcia, Paolo Di Tommaso & Sven Nahnsen.
 > Nat Biotechnol. 2020 Feb 13. doi: 10.1038/s41587-020-0439-x.
+>
+> Original analysis pipeline can be found here: https://yezhengstat.github.io/CUTTag_tutorial/#I_Introduction
 
 > disclaimer: Portions of this analysis were developed with assistance from ChatGPT (GPT-5 & GPT-4), a large language model created by OpenAI.
 Model: ChatGPT (GPT-5 & GPT-4). Accessed: June 2025.
