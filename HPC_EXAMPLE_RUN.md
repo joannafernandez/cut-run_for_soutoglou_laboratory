@@ -48,6 +48,17 @@ https://github.com/joannafernandez/cut-run_for_soutoglou_laboratory/blob/main/ho
 
 4️⃣ Let's run our pipleine!
 
+#### Critically, always remember to start an interactive session: 
+> documentation for this can be found here:https://artemis-docs.hpc.sussex.ac.uk/artemis/jobs_submission.html
+
+
+Briefly, to begin an interactive session:
+```bash
+srun --pty bash
+```
+or else, see here for running srun using screen: https://artemis-docs.hpc.sussex.ac.uk/artemis/jobs_submission.html#:~:text=of%20session%20saver.-,Run%20Srun%20using%20screen,-%23
+
+Once you are there, continue:
 ```bash
 export NXF_VER=24.10.6
 ```
