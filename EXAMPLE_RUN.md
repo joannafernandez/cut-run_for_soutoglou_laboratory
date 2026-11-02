@@ -70,3 +70,7 @@ nextflow run nf-core/cutandrun -r 3.2.2 -profile docker \
 
 ```
 
+> if running without spike normalisation
+```bash
+ nextflow run nf-core/cutandrun -r 3.2.2 -profile docker   --input ~/centrodamsheet.csv   --genome hg38   --normalisation_mode CPM   --normalisation_binsize 1   --outdir /media/bafj7/jo5/centrodamnospike   --work-dir ~/nf_work   --save_reference   --save_trimmed   --use_control true   --max_memory '24.GB'   --max_cpus 8   --cores 30   -with-report report.html   -with-trace trace.txt   -with-timeline timeline.html   -with-dag dag.png  --skip_heatmaps  --skip_dt_qc  --skip_peak_qc  --skip_multiqc
+```
